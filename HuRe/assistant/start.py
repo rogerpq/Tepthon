@@ -1,4 +1,4 @@
-#    جميع الحقوق لمطوري سورس جـيبثون حصريا لهم فقط
+#    جميع الحقوق لمطوري سورس تيبثون حصريا لهم فقط
 #    اذا تخمط الملف اذك الحقوق وكاتبيه ومطوريه لا تحذف الحقوق وتصير فاشل 👍
 #    كتابة الشسد 
 import asyncio
@@ -37,7 +37,7 @@ async def start(event):
             buttons=[
                                      [Button.inline("عرض المستخدمين 📬", data="users"), Button.inline(
                                          "اوامر البـوت ⚒️", data="gibcmd")],
-                                     [Button.url("المطـور 🔗", "https://t.me/lMl10l"), Button.inline(
+                                     [Button.url("المطـور 🔗", "https://t.me/M_H_N"), Button.inline(
                                          "اوامر الزغـرفة", data="rozzag")],
 
                                  ])
@@ -51,8 +51,8 @@ async def start(event):
             message=starttext,
             link_preview=False,
             buttons=[
-                [custom.Button.inline("تنـصيب جيـبثون  🐍", data="deploy")],
-                [Button.url("تحتاج مسـاعدة ❓", "https://t.me/lMl10l")],
+                [custom.Button.inline("تنـصيب تيبثون  🐍", data="deploy")],
+                [Button.url("تحتاج مسـاعدة ❓", "https://t.me/M_H_N")],
             ],
         )
 
@@ -140,7 +140,7 @@ async def settings(event):
 
 
 @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"rozname"))) 
-async def settings(event):  #    قـسـم  الزغرفـة جمـثـون
+async def settings(event):  #    قـسـم  الزغرفـة تيبـثـون
     if event.sender_id == bot.uid:
         await event.delete()
         await tgbot.send_message(event.chat_id,
