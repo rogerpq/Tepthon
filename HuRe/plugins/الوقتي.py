@@ -1,7 +1,7 @@
 # اذا تخمط اذكر الحقوق رجـاءا  - 
 # كتابة وتعديل وترتيب  ~ @M_H_N
 # For ~ @E9N99
-#تعديل Reda / رضا
+#تعديل BiLaL / بلال
 #من تعرف تخمط اذكر حقوق لتسوي نفسك مطور
 from ..sql_helper.group import auto_g, del_auto_g, get_auto_g
 import webcolors
