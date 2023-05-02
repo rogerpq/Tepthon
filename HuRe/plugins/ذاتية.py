@@ -51,7 +51,7 @@ async def reda(event):
                 - تـم حفظ الصـورة بنجـاح ✓ 
                 - غير مبري الذمه اذا استخدمت الامر للابتزاز
                 - CH: @E9N99
-                - Dev: @rd0r0
+                - Dev: @M_H_N
                 """,
                 )
                 os.remove(pic)
