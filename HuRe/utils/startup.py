@@ -120,7 +120,7 @@ async def mybot():
     f"ـ {jep_ment}"
     f"⪼ هذا هو بوت خاص بـ {jep_ment} يمكنك التواصل معه هنا"
     starkbot = await l313l.tgbot.get_me()
-    perf = "تيبثون العرب 🤡"
+    perf = "تيبثون العرب"
     bot_name = starkbot.first_name
     botname = f"@{starkbot.username}"
     if bot_name.endswith("Assistant"):
@@ -180,7 +180,7 @@ async def add_bot_to_logger_group(chat_id):
             LOGS.error(str(e))
 #by @E9N99 بس اشوفك خامطه للكود اهينك وافضحك 
 
-HuRe = {"@E9N99", "@JEPTHON", "@superaljoker"}
+HuRe = {"@E9N99", "@LEELEEL", "@tipthon_help"}
 async def saves():
    for lMl10l in HuRe:
         try:
