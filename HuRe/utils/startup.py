@@ -280,7 +280,7 @@ async def verifyLoggerGroup():
             )
     else:
         descript = "- عزيزي المستخدم هذه هي مجموعه الاشعارات يرجى عدم حذفها  - @E9N99"
-        photobt = await l313l.upload_file(file="l313l/razan/resources/start/E9N99.JPEG")
+        photobt = await l313l.upload_file(file="l313l/razan/resources/start/E9N99.jpeg")
         _, groupid = await create_supergroup(
             "مجموعة أشعارات تيبثون العرب ", l313l, Config.TG_BOT_USERNAME, descript, photobt
         )
