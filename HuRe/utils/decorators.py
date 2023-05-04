@@ -161,7 +161,7 @@ def errors_handler(func):
             result = output[0] + output[1]
             ftext += result
             pastelink = await paste_message(ftext)
-            text = "**تقرير خطا جـيبثون**\n\n"
+            text = "**تقرير خطا تـيبثون**\n\n"
             link = "[هنا](https://t.me/lMl10l)"
             text += "إذا كنت تريد يمكنك الإبلاغ عن ذلك"
             text += f"- فقط قم بإعادة توجيه هذه الرسالة {link}.\n"
