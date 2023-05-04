@@ -309,7 +309,7 @@ async def verifyLoggerGroup():
             )
     else:
         descript = "᯽︙ وظيفه الكروب يحفظ رسائل الخاص اذا ما تريد الامر احذف الكروب نهائي \n  - @E9N99"
-        photobt = await l313l.upload_file(file="l313l/razan/resources/start/E9N992.JPEG")
+        photobt = await l313l.upload_file(file="l313l/razan/resources/start/E9N992.jpeg")
         _, groupid = await create_supergroup(
             "مجموعة التخزين", l313l, Config.TG_BOT_USERNAME, descript, photobt
         )
