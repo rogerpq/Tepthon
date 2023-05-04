@@ -280,9 +280,8 @@ async def verifyLoggerGroup():
             )
     else:
         descript = "- عزيزي المستخدم هذه هي مجموعه الاشعارات يرجى عدم حذفها  - @E9N99"
-        photobt = await l313l.upload_file(file="l313l/razan/resources/start/E9N99.jpeg")
         _, groupid = await create_supergroup(
-            "مجموعة أشعارات تيبثون العرب ", l313l, Config.TG_BOT_USERNAME, descript, photobt
+            "مجموعة أشعارات تيبثون العرب ", l313l, Config.TG_BOT_USERNAME, descript
         )
         addgvar("PRIVATE_GROUP_BOT_API_ID", groupid)
         print("᯽︙تم إنشاء مجموعة المسـاعدة بنجاح وإضافتها إلى المتغيرات.")
@@ -309,9 +308,8 @@ async def verifyLoggerGroup():
             )
     else:
         descript = "᯽︙ وظيفه الكروب يحفظ رسائل الخاص اذا ما تريد الامر احذف الكروب نهائي \n  - @E9N99"
-        photobt = await l313l.upload_file(file="l313l/razan/resources/start/E9N992.jpeg")
         _, groupid = await create_supergroup(
-            "مجموعة التخزين", l313l, Config.TG_BOT_USERNAME, descript, photobt
+            "مجموعة التخزين", l313l, Config.TG_BOT_USERNAME, descript
         )
         addgvar("PM_LOGGER_GROUP_ID", groupid)
         print("تـم عمـل الكروب التخزين بنـجاح واضافة الـفارات الـيه.")
