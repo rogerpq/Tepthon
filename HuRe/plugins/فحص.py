@@ -38,7 +38,7 @@ async def amireallyalive(event):
     _, check_sgnirts = check_data_base_heal_th()
     EMOJI = gvarstatus("ALIVE_EMOJI") or "⿻┊‌‎"
     ALIVE_TEXT = gvarstatus("ALIVE_TEXT") or "**父[ TepThon 𝙸𝚂 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 ✓ ](t.me/E9N99)父**"
-    HuRe_IMG = gvarstatus("ALIVE_PIC") or Config.A_PIC or "https://telegra.ph/file/1dc688ed48fe14c47b380.mp4"
+    HuRe_IMG = gvarstatus("ALIVE_PIC") or Config.A_PIC or "https://telegra.ph/file/214b5023c16963c7dca7d.mp4"
     l313l_caption = gvarstatus("ALIVE_TEMPLATE") or temp
     caption = l313l_caption.format(
         ALIVE_TEXT=ALIVE_TEXT,
