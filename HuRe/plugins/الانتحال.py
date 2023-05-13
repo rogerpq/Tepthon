@@ -1,5 +1,5 @@
 # Copyright (C) 2021 HuRe TEAM
-# FILES WRITTEN BY  @M_H_N
+# FILES WRITTEN BY  @nunuu
 import html
 import base64
 from telethon.tl.functions.channels import GetFullChannelRequest
