@@ -12,7 +12,7 @@ from l313l.razan.resources.strings import *
 
 plugin_category = "extra" 
 
-#by ~ @M_H_N
+#by ~ @nunuu
 @l313l.ar_cmd(
     pattern="م17$",
     command=("م17", plugin_category),)
@@ -21,7 +21,7 @@ async def _(event):
             await event.edit(
                 "قائمة اوامر التمبـلر :\n➖➖➖➖➖➖➖➖➖➖➖➖➖\n ᯽︙ اختر احدى هذه القوائم\n\n- ( `.الزغرفة` ) \n- ( `.اسماء تمبلر` )   \n- (`.اسماء عربية`)\n- ( `.اشهر مزغرفة`) \n- ( `.الاختصارات` ) \n- ( `.البايو` )\n- (`.المتحركات`)\n\n➖➖➖➖➖➖➖➖➖➖➖➖➖\n⌔︙CH : @E9N99"
             )
-#by ~ @M_H_N
+#by ~ @nunuu
 @l313l.ar_cmd(
     pattern="الزغرفة$",
     command=("الزغرفة", plugin_category),)
@@ -45,7 +45,7 @@ async def _(event):
                 "•━═━═━═━═━━═━═━═━═━•‌‌\n"
                 "˛ HuRe ، ٰUٍsٓEِrBُoََt - [CَِٓHُ](t.me/E9N99)"
             )
-#by ~ @M_H_N
+#by ~ @nunuu
 @l313l.ar_cmd(
     pattern="اسماء تمبلر$",
     command=("اسماء تمبلر", plugin_category),)
@@ -54,7 +54,7 @@ async def _(event):
             await event.edit(
                 "قائمة اوامـر اسمـاء تمبـلر :\n➖➖➖➖➖➖➖➖➖➖➖➖➖\n ᯽︙ اخـتر احـد هـذه القـوائـم:\n\n- (`.شباب1`) \n- (`.شباب2`) \n- (`.بنات1`) \n- (`.بنات2`) \n- (`.قنوات`) \n\n➖➖➖➖➖➖➖➖➖➖➖➖➖\n⌔︙CH : @E9N99"
             )
-#by ~ @RR 9R7
+#by ~ @nunuu
 @l313l.ar_cmd(
     pattern="البايو$",
     command=("البايو", plugin_category),)
@@ -116,7 +116,7 @@ async def _(event):
             )           
 
         
-#by ~ @M_H_N
+#by ~ @nunuu
 @l313l.ar_cmd(
     pattern="اشهر مزغرفة$",
     command=("اشهر مزغرفة", plugin_category),)
@@ -201,7 +201,7 @@ async def _(event):
                 "- فَطـﯡشہ𓆤."
             )
 # ˛ HuRe ، ٰUٍsٓEِrBُoََt  # 
-#by ~ @M_H_N
+#by ~ @nunuu
 @l313l.ar_cmd(
     pattern="شباب1$",
     command=("شباب1", plugin_category),)
@@ -245,7 +245,7 @@ async def _(event):
                 "「𝘑𝘮𝘳𝘢 𐃣."
             )
 # ˛ HuRe ، ٰUٍsٓEِrBُoََt  # 
-#by ~ @M_H_N
+#by ~ @nunuu
 @l313l.ar_cmd(
     pattern="شباب2$",
     command=("شباب2", plugin_category),
@@ -297,7 +297,7 @@ async def _(event):
                 "𓂐 𝙅𝙊𝙅 𖠛 ."
             )
 # ˛ HuRe ، ٰUٍsٓEِrBُoََt  # 
-#by ~ @M_H_N
+#by ~ @nunuu
 @l313l.ar_cmd(
     pattern="بنات1$",
     command=("بنات1", plugin_category),)
@@ -355,7 +355,7 @@ async def _(event):
                 "𓂐 𝘼𝙈𝙔  𖠛 ."
             )
 # ˛ 𝖩𝗆𝗍𝖧ٰ𝗈𝗇 ، ٰUٍsٓEِrBُoََt  # 
-#by ~ @M_H_N
+#by ~ @nunuu
 @l313l.ar_cmd(
     pattern="بنات2$",
     command=("بنات2", plugin_category),
@@ -399,7 +399,7 @@ async def _(event):
             )
         
 # ˛ HuRe ، ٰUٍsٓEِrBُoََt  # 
-#by ~ @M_H_N
+#by ~ @nunuu
 @l313l.ar_cmd(
     pattern="قنوات$",
     command=("قنوات", plugin_category),
@@ -452,7 +452,7 @@ async def _(event):
                 ": ..................."
             )
 # ˛ HuRe ، ٰUٍsٓEِrBُoََt  # 
-#by ~ @M_H_N
+#by ~ @nunuu
 @l313l.ar_cmd(
     pattern="اختصارات1$",
     command=("اختصارات1", plugin_category),
@@ -548,7 +548,7 @@ async def _(event):
                 "أﯠﯠ؏\n"
             )
 # ˛ HuRe ، ٰUٍsٓEِrBُoََt  # 
-#by ~ @M_H_N
+#by ~ @nunuu
 @l313l.ar_cmd(
     pattern="اختصارات2$",
     command=("اختصارات2", plugin_category),
@@ -588,7 +588,7 @@ async def _(event):
             )
         
 # ˛ HuRe ، ٰUٍsٓEِrBُoََt  # 
-#by ~ @M_H_N
+#by ~ @nunuu
 @l313l.ar_cmd(
     pattern="اختصارات3$",
     command=("اختصارات3", plugin_category),
@@ -639,7 +639,7 @@ async def _(event):
             )
         
 # ˛ HuRe ، ٰUٍsٓEِrBُoََt  # 
-#by ~ @M_H_N
+#by ~ @nunuu
 @l313l.ar_cmd(
     pattern="اختصارات4$",
     command=("اختصارات4", plugin_category),)
@@ -687,7 +687,7 @@ async def _(event):
             )
         
 # ˛ HuRe ، ٰUٍsٓEِrBُoََt  # 
-#by ~ @M_H_N
+#by ~ @nunuu
 @l313l.ar_cmd(
     pattern="اختصارات5$",
     command=("اختصارات5", plugin_category),)
@@ -762,5 +762,5 @@ async def _(event):
                 "- حِݪۅ 💕.\n"
                 "- مٖتݪزِكٰ 💕."
             )
-#by ~ @M_H_N
+#by ~ @nunuu
 
