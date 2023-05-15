@@ -1,4 +1,4 @@
-#𝙕𝙚𝙙𝙏𝙝𝙤𝙣 ®
+#TIPTHON ®
 import asyncio
 import time
 import io
